@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">JuegoFinal</string>
+    <string name="app_name">NINJA WARRIOR</string>
+    <string name="game_name">NINJA WARRIOR</string>
+    <string name="play">JUGAR</string>
+    <string name="points">PUNTUACIONS</string>
+    <string name="exit">SALIR</string>
+    <string name="settings">settings</string>
 </resources>

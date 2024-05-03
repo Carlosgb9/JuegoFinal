@@ -1,5 +1,5 @@
 <resources>
-    <!-- Reply Preference -->
+    <!-- Reply Preference
     <string-array name="reply_entries">
         <item>Reply</item>
         <item>Reply to all</item>
@@ -8,5 +8,15 @@
     <string-array name="reply_values">
         <item>reply</item>
         <item>reply_all</item>
+    </string-array>-->
+    <string-array name="ninja_names">
+        <item>Ninja 1</item>
+        <item>Ninja 2</item>
+        <item>Ninja 3</item>
+    </string-array>
+    <string-array name="ninja_images">
+        <item>@drawable/ninja01</item>
+        <item>@drawable/ninja02</item>
+        <item>@drawable/ninja03</item>
     </string-array>
 </resources>

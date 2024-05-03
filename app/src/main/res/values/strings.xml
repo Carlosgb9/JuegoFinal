@@ -25,4 +25,10 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="music">Reporduir musica</string>
+    <string name="music_description">Es reprodueix musica de fons</string>
+    <string name="ninja_description">Escollir Ninja</string>
+    <string name="enemics">Nombre d\'enemics</string>
+    <string name="ninja">Ninja</string>
+    <string name="enemics_descripcio">Quantitat inicial d\'enemics</string>
 </resources>

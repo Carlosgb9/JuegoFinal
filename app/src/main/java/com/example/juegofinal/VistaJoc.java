@@ -6,7 +6,12 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class VistaJoc (Context context, AttributeSet attrs) extends View {
+import java.util.Vector;
+
+public class VistaJoc extends View {
+
+    Vector<Grafics> objectius;
+    int numObjectius = 3;
     public VistaJoc(Context context, AttributeSet attrs) {
         super(context, attrs);
         Drawable drawableNinja, drawableGanivet, drawableEnemic;
@@ -16,7 +21,7 @@ public class VistaJoc (Context context, AttributeSet attrs) extends View {
         // Creem els objectius o blancs i inicialitzem la seva velocitat, angle i
         // rotació. La posició inicial no la podem obtenir
         // fins a conèixer ample i alt pantalla
-        objectius = new Vector<Grafics>();
+        objectius = new Vector<>();
         for (int i = 0; i < numObjectius; i++) {
             Grafics objectiu = new Grafics(this, drawableEnemic);
             objectiu.setIncY(Math.random() * 4 - 2);

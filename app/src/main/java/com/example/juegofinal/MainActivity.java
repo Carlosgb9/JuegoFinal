@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        startActivity(new Intent(MainActivity.this, JocActivity.class));
                     }
                 });
 

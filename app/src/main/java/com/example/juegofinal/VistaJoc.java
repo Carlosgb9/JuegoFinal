@@ -34,6 +34,9 @@ public class VistaJoc extends View {
     Drawable drawableNinja, drawableGanivet, drawableEnemic;
     public VistaJoc(Context context, AttributeSet attrs) {
         super(context, attrs);
+        drawableGanivet = context.getResources().
+                getDrawable(R.drawable.ganivet, null);
+        ganivet = new Grafics(this, drawableGanivet);
         drawableNinja = context.getResources().
                 getDrawable(R.drawable.ninja01, null);
         ninja = new Grafics(this, drawableNinja);

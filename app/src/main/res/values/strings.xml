@@ -31,4 +31,6 @@
     <string name="enemics">Nombre d\'enemics</string>
     <string name="ninja">Ninja</string>
     <string name="enemics_descripcio">Quantitat inicial d\'enemics</string>
+    <string name="formatEnemics">Has introduit valors numerics com a numero d\'enemics</string>
+    <string name="nomBuit">El nom no pot estar buit</string>
 </resources>

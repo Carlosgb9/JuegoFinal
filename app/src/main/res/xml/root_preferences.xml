@@ -8,6 +8,7 @@
             android:key="cbpMusica"
             android:title="@string/music"
             android:summary="@string/music_description"/>
+
         <ListPreference
             android:key="lpNinja"
             android:title="@string/ninja"
@@ -17,11 +18,13 @@
             android:entryValues="@array/ninja_images"
             android:defaultValue="1"
             android:layout="@layout/list_preference_icon"/>
+
         <EditTextPreference
             android:defaultValue="false"
             android:key="etpEnemics"
             android:title="@string/enemics"
-            android:summary="@string/enemics_descripcio"/>
+            android:summary="@string/enemics_descripcio"
+            android:inputType="number"/>
 
     </PreferenceCategory>
 
